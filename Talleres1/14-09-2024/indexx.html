@@ -1,168 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad</title>
+    <title>Actividad2</title>
 </head>
 <body>
-    <div class="container">
-        <div class="center">
-            <img src="img/Logo1.webp" alt="img de la empresa">
-        </div>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Menu
-                 </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-              </div>
-              <div class="col">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contactos
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-              </div>
-              <div class="col">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Misión
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-              </div>
-              <div class="col">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Visión
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-              </div>
-              <div class="col">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Reseña
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-              </div>
+   <!-- MENU -->
+   <header id="inicio">
+    <nav>
+        <section class="contenedor nav">
+            <div class="enlaces-header">
+                <a href="#inicio">Inicio</a>
+                <a href="#Intereses">Intereses</a>
+                <a href="#Eventos">Eventos</a>
+                <a href="#Enlacesdeintereses">Elaces de Intereses</a>
+                <a href="#Contacto">Contacto</a>
             </div>
-        </div>  
-        <div class="text-center">
-            <br>
-            <h1>Intereses</h1>
-            <br>
-        </div>
-        <div class="row">
-            <div class="col">
-             <div class="card text-center mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        </section>
+    </nav>
+    <div class="contenedor">
+        <section class="contenido-header">
+          <img src="img/spotify.jpg" alt="foto de perfil">
+            <section class="textos-header">
+                <h1>SPOTIFY</h1>
+                <br>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="dropdown">
+                          <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PREMIUM
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.spotify.com/co-es/premium/?ref=spotifycom_header_premium_individual">Premium Individual</a></li>
+                            <li><a class="dropdown-item" href="https://www.spotify.com/co-es/duo/?ref=spotifycom_header_premium_duo">Premium Duo</a></li>
+                            <li><a class="dropdown-item" href="https://www.spotify.com/co-es/family/?ref=spotifycom_header_premium_family">Premium Familiar</a></li>
+                            <li><a class="dropdown-item" href="https://www.spotify.com/co-es/student/?ref=spotifycom_header_premium_student">Premium Para Estudiantes</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                      <div class="col">
+                          <div class="dropdown">
+                              <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ARTISTAS POPULARES
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/artist/790FomKkXshlbRYZFtlgla">Karol G</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/artist/2LRoIwlKmHjgvigdNGBHNo">Feid</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/artist/4q3ewBCX7sLwd24euuV69X">Bad Bunny</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/artist/1r4hJ1h58CWwUQe3MxPuau">Maluma</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C">Otros...</a></li>
+                              </ul>
+                            </div>
+                      </div>
+                        <div class="col">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 ALBUMES
+                                </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/album/0lgs2Sa82lyX89nBUWyUy6">Ferxxocalipsis</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/album/3RQQmkQEvNCY4prGKE6oc5">Un Verano Sin Ti </a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/intl-es/album/4kS7bSuU0Jm9LYMosFU2x5">Mañana Sera Bonito</a></li>
+                                <li><a class="dropdown-item" href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3B">Otros Albumes</a></li>
+                              </ul>
+                            </div>
+                    </div>
+                    <div class="col">
+                      <div class="dropdown">
+                          <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PODCASTS
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://open.spotify.com/genre/section0JQ5IMCbQBLB44fgZT0DuR">Mejores Episodios</a></li>
+                            <li><a class="dropdown-item" href="https://open.spotify.com/episode/1NeIMoVYFbW847zv3lOrgA">Podcast Orgullosamente Montañero</a></li>
+                            <li><a class="dropdown-item" href="https://open.spotify.com/show/2XAreVmmJ8hvmTLPxblJGV">Podcast Charlaito</a></li>
+                            <li><a class="dropdown-item" href="https://open.spotify.com/genre/section0JQ5IMCbQBLo5H5XNqnZd2">Podcasts Que Tambien Puedes Ver</a></li>
+                          </ul>
+                        </div>
+                  </div>
               </div>
-            </div>
-            <div class="col">
-                <div class="card text-center mb-3">
-                   <div class="card-body">
-                     <h5 class="card-title">Special title treatment</h5>
-                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-primary">Go somewhere</a>
-                   </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center mb-3">
-                   <div class="card-body">
-                     <h5 class="card-title">Special title treatment</h5>
-                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-primary">Go somewhere</a>
-                   </div>
-                </div>
-            </div>   
-        </div>
-        <div class="text-center">
-            <br>
-            <h1>Eventos</h1>
-            <br>
-        </div>
-        <div class="img text-center">
-            <div class="row">
-              <div class="col">
-                <img src="img/Logo1.webp" class="img-fluid" alt="...">
-              </div>
-              <div class="col">
-                <img src="img/Logo1.webp" class="img-fluid" alt="...">
-              </div>
-              <div class="col">
-                <img src="img/Logo1.webp" class="img-fluid" alt="...">
-              </div>
-              <div class="col">
-                <img src="img/Logo1.webp" class="img-fluid" alt="...">
-              </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <br>
-            <h1>Enlaces de Interes</h1>
-            <br>
-        </div>
-        <div class="enlaces text-center"></div>
-            <div class="row">
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-              <div class="col">
-                <a href="https://www.youtube.com/?app=desktop&hl=es"><img src="img/Logo1.webp" alt="" height="180px"></a>
-              </div>
-            </div>
-        </div>
-        <div>
+            </section>
             
-        </div>   
-    </div> 
+        </section>
+    </div>
+</header>  
+    <!-- INTERESES -->
+     <section id="Intereses" class="Intereses">
+      <div class="contenedor">
+          <div class="content-Intereses">
+              <div class="title"><br><br>
+                  <h1>INTERESES</h1><br> 
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header"><h3>TOP GLOBAL</h3></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Son las canciones más escuchadas ahora mismo.</h5>
+                          <p class="card-text"><div class="container text-center">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                              <div class="col"><h6>Die With A Smile</h6></div>
+                              <div class="col"><h6>Birds Of A Feather</h6></div>
+                              <div class="col"><h6>Taste</h6></div>
+                              <div class="col"><h6>Who</h6></div>
+                            </div>
+                          </div></p>
+                          <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF" class="btn btn-outline-success">Ver Más...</a>
+                        </div>
+                      </div>
+                </div>
+                  <div class="col">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header"><h3>VIRAL 50</h3></div>
+                        <div class="card-body">
+                          <h5 class="card-title">Canciones globales más virales.</h5>
+                          <p class="card-text"><div class="container text-center">
+                            <div class="row">
+                              <div class="col"><h6>Embrace It</h6></div>
+                              <div class="col"><h6>Jo Tum Mere Ho</h6></div>
+                              <div class="col"><h6>Die With A Smile</h6></div>
+                            </div>
+                          </div></p>
+                          <a href="https://open.spotify.com/playlist/37i9dQZEVXbLiRSasKsNU9" class="btn btn-outline-success">Ver Más...</a>
+                        </div>
+                      </div>
+                </div>
+                  <div class="col">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header"><h3>HISTORIA DEL CLUB</h3></div>
+                        <div class="card-body">
+                          <h5 class="card-title">El 'Pitido Inicial'</h5>
+                          <p class="card-text">El 26 de abril de 1903 nace el Athletic Club de Madrid impulsado por un grupo de estudiantes vascos deciden unirse para fundar un nuevo club...</p>
+                          <a href="https://www.atleticodemadrid.com/atm/historia-por-decadas" class="btn btn-outline-success">Ver Más...</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      <br><br>
+  </section>
+  <!-- EVENTOS -->
+  <section class="Eventos"  id="Eventos">
+    <div class="contenedor">
+        <div class="content-Eventos">
+            <div class="title"><br><br>
+                <h1>EVENTOS</h1>
+                <br><br><br>
+            </div>
+            <div class="img_eventos">
+              <div class="img text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="img/Premium.jpg" alt="..." height="195px">
+                  </div>
+                  <div class="col">
+                    <img src="img/top.jpg" alt="..." height="195px">
+                  </div>
+                  <div class="col">
+                    <img src="img/topalbum.jpg" alt="..." height="195px">
+                  </div>
+                  <div class="col">
+                    <img src="img/Topartistas.jpg" alt="..." height="195px" >
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <br><br><br>
+</section>
+<!-- ENLACES DE INTERESES -->
+<section id="Enlacesdeintereses" class="Enlacesdeintereses">
+  <div class="contenedor">
+      <div class="title"><br><br>
+          <h1>ENLACES DE INTERESES</h1><br><br>
+      </div>            
+      <br>
+      <div class="container text-center">
+        <div class="row">
+            <div class="col" class="text-bg-light p-3">
+              <h5>Cuenta Oficial</h5>
+                <a href="https://artists.spotify.com/home?utm_campaign=sem_google-search_pro_all-en_evergreen_crossdevice_cpc_br_broad&utm_medium=sem&utm_source=google-search&utm_content=rsa-access&gad_source=1&gclid=Cj0KCQjwurS3BhCGARIsADdUH514VbwhMf7wMkaBpno2MNMyrreOeWiD9RincjFCawV3zLUZDJtTHLcaAvtyEALw_wcB"><img src="https://cdn-icons-png.flaticon.com/512/1008/1008958.png" height="180"></a>
+            </div>
+            <div class="col">
+              <h5>Playlists</h5>
+                <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz"><img src="img/musica.png" alt="" height="180"></a>
+            </div>
+            <div class="col">
+              <h5>Estaciones</h5>
+                <a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu4h"><img src="img/vinilo.png" alt="" height="180"></a>
+            </div>
+            <div class="col"><h5>Comunidad</h5>
+                <a href="https://community.spotify.com/#_gl=1*rg8q3j*_gcl_aw*R0NMLjE3MjY4ODI0MjQuQ2owS0NRand1clMzQmhDR0FSSXNBRGRVSDUxNFZid2hNZjd3TWthQnBubzJNTk15cnJlT2VXaUQ5UmluY2pGQ2F3VjN6TFVaREp0VEhMY2FBdnR5RUFMd193Y0I.*_gcl_dc*R0NMLjE3MjY4Nzg0NDQuQ2owS0NRand1clMzQmhDR0FSSXNBRGRVSDUzZFY1NEJfX2hZdlRZc090X04xenNPWUJhUTRjQ21yOGEzYTRTYlB6RXZsb0x2cVlrTVF5UWFBc0VORUFMd193Y0I.*_gcl_au*NTk3ODEzNzMxLjE3MjY4NzUwMzE."><img src="https://cdn-icons-png.flaticon.com/512/62/62048.png" alt=""height="180"></a>
+            </div>
+            <div class="col">
+              <h5>Plataformas Similares</h5>
+                <a href="https://www.deezer.com/es/offers"><img src="img/deezer.png" alt="" width="200px" height="180"></a>
+            </div>
+            <div class="col">
+              <h5>Noticias</h5><br>
+                <a href="https://www.eleconomista.com.mx/tags/Spotify"><img src="img/periodico.png" alt="" width="180px" height="120"></a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <br><br>
+</section>
+<!-- FOOTEER -->
+        <footer id="Contacto">
+            <div class="partFooter">
+                <img src="img/sspotifynegro.jpg" alt="" height="300px">
+            </div>
+            <div class="partFooter">
+                <h4>Contacto</h4>
+                <div class="contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>office@spotify.com</p>
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Estocolmo, Suecia</p>
+                </div>
+            </div>
+            <div class="partFooter">
+                <h4>Redes Sociales</h4>
+                <div class="social-media">            
+                    <a href="https://www.linkedin.com/company/spotify/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://support.spotify.com/co-es/contact-spotify-support/?nosignup=true&flow_ctx=0fe22bfc-3e7a-404b-8d3e-ff1f9c3c3be0%3A1726906470" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/SpotifyColombia" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/SpotifyColombia" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/spotify/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@Spotify" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+</div>
 </body>
+<script src="https://kit.fontawesome.com/f1b2ade254.js" crossorigin="anonymous"></script>
 </html>
